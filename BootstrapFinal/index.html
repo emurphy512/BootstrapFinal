@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    
+    <!--CSS stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Home | Erin Murphy</title>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <!--This starts the process of making the navigation element a responsive navigation bar.-->
+    <!--The "lg" at the end instructs the bar to expand its layout when the width of the screen reaches a specific point-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <!-- sets the text to a light color in preparation for a dark background.-->
+    <!--sets the background to the default dark color.-->
+    <!--give it a shadow-->
+    <!--Moving the menu links to the right of the menu bar by setting the left margin of the <ul> element to auto using the "ml-auto" class in the opening -->
+        <a href="index.html" target="_blank" class="navbar-brand active">Erin Murphy</a>
+        <!--This will add special styling to the text, making it stand out-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--giving it the style needed to become the toggle button.-->
+        <!--This uses the javascript to toggle the menu links on and off.-->
+            <!--This adds a hamburger style menu icon to the button.-->
+        <div class="collapse navbar-collapse" id="navContent">
+        <!--Set id so you can reference it later-->
+        <!--this will be toggled using a button we will create in the next section.-->
+        <!--this identifies this section as a collapsable section.-->
+        <ul class="navbar-nav ml-auto">
+        <!--This identifies the section as the navigation area of the menu.-->
+            <li class="navbar-item"><a href="About.html" target="_blank" class="nav-link">About</a></li>
+            <li class="navbar-item"><a href="Portfolio.html" target="_blank" class="nav-link">Portfolio</a></li>
+            <li class="navbar-item"><a href="Contact.html" target="_blank" class="nav-link">Contact</a></li>
+            <!--This identifies the items that are used as navigation items on the menu.-->
+            <!--This adds special styling to each navigation link.-->
+        </ul>
+        </div>
+    </nav>
+    <header class="mainHeader">
+        <div class="container-fluid h-100">
+            <!--This creates a full-width container around all the elements within the header. -->
+            <!--This sets the height of these elements to 100% of the parent (header) element.-->
+            <div class="row h-100 align-items-center justify-content-center text-center text-white" style="background-color: rgba(0, 0, 0, 0.2)">
+                <!--This creates a row within the parent container.-->
+                <!--This sets the height of these elements to 100% of the parent (header) element.-->
+                <!--This centers all of the elements vertically within the row.-->
+                <!--This centers all the elements contained within the row horizontally (text is still left-justified).-->
+                <!--This centers the texts within the elements.-->
+                <!--This will make all the text (except the link) white so it stands out against the background.-->
+                <!-- This will set the background color to a 20% transparent black, allowing the text to be a little more visible.-->
+                <div class="col-lg-8">
+                    <!--This will create a column within the row that will span 8 columns when the screen size is bigger than the large breakpoint (992px).-->
+                    <h1 class="display-1 font-weight-bold"><span class="font-weight-light">Well, Hello! <br> I'm Erin.</span></h1>
+                    <!--This makes the text bigger.-->
+                    <!--This makes the text bold. -->
+                    <!--This will make the font thinner, creating a bit of contrast.-->
+                        <hr class="bg-white my-5">
+                            <!--Makes the horizontal rule element white-->
+                            <!--This adds a margin to the top and bottom of the element.-->
+                                <p class="font-weight-light">
+                                    Erin is an aspiring Freelance Web Developer located outside of Salt Lake City.
+                                </p>
+                                    <!--This reduces the line weight of the font, resulting in reduced visual emphasis.-->
+                                        <a href="Portfolio.html" target="_blank" class="btn btn-info btn-lg mt-3">View My Work</a>
+                                            <!--Creates the button-->
+                                            <!--makes the button visible and blue.-->
+                                            <!--Makes the button large-->
+                                            <!--adds a top margin to the button-->
+                                         </div>
+                                    </div>
+                                </div>
+    </header>
+    <!--ABOUT-->
+    <section class="aboutMe" id="about">
+        <div class="container 100">
+            <div class="row align-items-center justify-content-center text-center py-5">
+                <!--This creates a row within the parent container.-->
+                <!--py-5 adds padding to top and bottom of the row-->
+                <!--This sets the height of these elements to 100% of the parent (header) element.-->
+                <!--This centers all of the elements vertically within the row.-->
+                <!--This centers all the elements contained within the row horizontally (text is still left-justified).-->
+                <!--This centers the texts within the elements.-->
+                <!--This will make all the text (except the link) white so it stands out against the background.-->
+                <!-- This will set the background color to a 20% transparent black, allowing the text to be a little more visible.-->
+                <div class="col-6 col-md-4">
+                <!--This will set the element to a column that takes up 6 columns for screen sizes smaller than the medium breakpoint. On larger screens, the element will occupy 4 columns.-->
+                    <img src="Assets/Images/Headshot.jpeg" alt="headshot" class="img-fluid">
+                </div>
+                <div class="col-lg-8 my-3">
+                    <!--my-3 adds margin to top and bottom of this column-->
+                    <!--This will create a column within the row that will span 8 columns when the screen size is bigger than the large breakpoint (992px).-->
+                    <h2 class="font-weight-bold">Erin Murphy</span></h2>
+                    <!--This makes the text bold. -->
+                    <!--This will make the font thinner, creating a bit of contrast.-->
+                        <hr class="my-5">
+                            <!--This adds a margin to the top and bottom of the element.-->
+                                <p class="font-weight-light">
+                                    Description of my skills. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, deserunt labore praesentium veritatis enim perspiciatis voluptas temporibus ipsum vero pariatur reprehenderit culpa odit suscipit eos natus facere similique commodi cum.
+                                </p>
+                                    <!--This reduces the line weight of the font, resulting in reduced visual emphasis.-->
+                                        <a href="Contact.html" target="_blank" class="btn btn-info btn-lg mt-3">Contact Me</a>
+                                            <!--Creates the button-->
+                                            <!--makes the button visible and blue.-->
+                                            <!--Makes the button large-->
+                                            <!--adds a top margin to the button-->
+                                         </div>
+                                    </div>
+                                </div>
+    </section>
+
+    <footer class="py-4 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Erin Murphy 2022</p>
+        </div>
+    </footer>
+
+<!-- Optional JavaScript below -->
+<!-- jQuery listed first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+</body>
+
+ 
+
+</html>

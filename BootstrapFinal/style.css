@@ -1,0 +1,13 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+.mainHeader {
+    height: 100vh; /* Sets the height to be 100% of the viewport height */
+    min-height: 40em; /*Sets the minimum height to 40 times the height of the current font.*/
+    background-image: url("Assets/Images/LaptopRainbow.jpeg"); /* Adds a background image. A good source of images can be located at Unsplash.com. */
+    background-size: cover; /* Sets the image size to the full width of the page. */
+    background-position: center; /* Centers the background. */
+    background-repeat: /* no-repeat; Sets the image to not repeat. */
+    background-attachment: scroll; /* Sets the background to scroll with the page, changing this to fixed will keep the background stationary while the page scrolls. */
+}

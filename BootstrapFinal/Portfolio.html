@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!--CSS stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio | Erin Murphy</title>
+    <body>
+        <!--Navigation Bar-->
+        <!--This starts the process of making the navigation element a responsive navigation bar.-->
+        <!--The "lg" at the end instructs the bar to expand its layout when the width of the screen reaches a specific point-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <!-- sets the text to a light color in preparation for a dark background.-->
+        <!--sets the background to the default dark color.-->
+        <!--give it a shadow-->
+        <!--Moving the menu links to the right of the menu bar by setting the left margin of the <ul> element to auto using the "ml-auto" class in the opening -->
+            <a href="index.html" target="_blank" class="navbar-brand">Erin Murphy</a>
+            <!--This will add special styling to the text, making it stand out-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--giving it the style needed to become the toggle button.-->
+            <!--This uses the javascript to toggle the menu links on and off.-->
+                <!--This adds a hamburger style menu icon to the button.-->
+            <div class="collapse navbar-collapse" id="navContent">
+            <!--Set id so you can reference it later-->
+            <!--this will be toggled using a button we will create in the next section.-->
+            <!--this identifies this section as a collapsable section.-->
+            <ul class="navbar-nav ml-auto">
+            <!--This identifies the section as the navigation area of the menu.-->
+                <li class="navbar-item"><a href="About.html" target="_blank" class="nav-link">About</a></li>
+                <li class="navbar-item"><a href="Portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li class="navbar-item"><a href="Contact.html" target="_blank" class="nav-link">Contact</a></li>
+                <!--This identifies the items that are used as navigation items on the menu.-->
+                <!--This adds special styling to each navigation link.-->
+            </ul>
+            </div>
+        </nav>
+
+        <section id="portfolio" class="bg-info">
+            <div class="container-fluid py-5">
+                <!--create a <div> element with the "container-fluid" class to create a container, and the "py-5" class to add padding to the top and bottom. -->
+                <div class="row text-white text-center">
+                    <div class="col">
+                        <h2 class="display-4 font-weight-bold">My Work</h2>
+                        <hr class="bg-white mb-5">
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <!--This changes the number of items shown within each row to only 1 item for small screens, 2 items for medium screens, and 3 items for larger screens.-->
+                    <div class="col mb-4">
+                        <!--Adds margin to bottom of the element -->
+                        <div class="card bg-light text-center border-light shadow h-100">
+                                <img src="Assets/Images/HTML.png" alt="basic HTML portfolio" class="card-img-top" style="object-fit: cover; height: 15em;">
+                            <!--creates styling for a card that will be used for the portfolio items.-->
+                            <!--sets the card to a height of 100%, this will help all cards become the same height.-->
+                                <div class="card-body">
+                                    <h3 class="card-title">Work Example 1</h3>
+                                    <hr class="bg-info">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae necessitatibus veniam error corrupti inventore, id molestias ipsa obcaecati earum dolores voluptatum nemo, quia aspernatur harum deserunt non architecto laudantium.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-outline-info btn-lg mt-2">Read More</a>
+                                    <!--This creates a large, blue outlined button with a top margin. -->
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <!--This changes the number of items shown within each row to only 1 item for small screens, 2 items for medium screens, and 3 items for larger screens.-->
+                    <div class="col mb-4">
+                        <!--Adds margin to bottom of the element -->
+                        <div class="card bg-light text-center border-light shadow h-100">
+                                <img src="Assets/Images/CSS.png" alt="basic HTML portfolio" class="card-img-top" style="object-fit: cover; height: 15em;">
+                            <!--creates styling for a card that will be used for the portfolio items.-->
+                            <!--sets the card to a height of 100%, this will help all cards become the same height.-->
+                                <div class="card-body">
+                                    <h3 class="card-title">Work Example 2</h3>
+                                    <hr class="bg-info">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae necessitatibus veniam error corrupti inventore, id molestias ipsa obcaecati earum dolores voluptatum nemo, quia aspernatur harum deserunt non architecto laudantium.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-outline-info btn-lg mt-2">Read More</a>
+                                    <!--This creates a large, blue outlined button with a top margin. -->
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <!--This changes the number of items shown within each row to only 1 item for small screens, 2 items for medium screens, and 3 items for larger screens.-->
+                    <div class="col mb-4">
+                        <!--Adds margin to bottom of the element -->
+                        <div class="card bg-light text-center border-light shadow h-100">
+                                <img src="Assets/Images/Bootstrap.png" alt="basic HTML portfolio" class="card-img-top" style="object-fit: cover; height: 15em;">
+                            <!--creates styling for a card that will be used for the portfolio items.-->
+                            <!--sets the card to a height of 100%, this will help all cards become the same height.-->
+                                <div class="card-body">
+                                    <h3 class="card-title">Work Example 3</h3>
+                                    <hr class="bg-info">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae necessitatibus veniam error corrupti inventore, id molestias ipsa obcaecati earum dolores voluptatum nemo, quia aspernatur harum deserunt non architecto laudantium.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-outline-info btn-lg mt-2">Read More</a>
+                                    <!--This creates a large, blue outlined button with a top margin. -->
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+
+        <footer class="py-4 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; Erin Murphy 2022</p>
+            </div>
+        </footer>
+
+<!-- Optional JavaScript below -->
+<!-- jQuery listed first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+ 
+
+</html>
